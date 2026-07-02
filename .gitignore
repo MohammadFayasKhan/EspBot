@@ -1,0 +1,34 @@
+# Arduino build artifacts
+build/
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+
+# Arduino IDE temp/backup files
+*.bak
+*.tmp
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux system files
+*~
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
